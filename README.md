@@ -9,6 +9,11 @@ GitHub CLI is available for repositories hosted on GitHub.com and GitHub Enterpr
 ## Documentation
 
 [See the manual][manual] for setup and usage instructions.
+Para la instalación en linux:
+Accedemos a: releases page después descargar el .deb adecuado.
+sudo apt install y el .deb lo instalamos a continuación introducimos gh auth login ,seguimos los pasos, le damos al intro y introducimos el código que nos dan en la interfazde autenticación que nos sale en el navegador.
+A continuación para subirlo a git hago un git init en la carpeta que queremos crear lo comiteo y lo subo a git con el gh repo créate que crea un repositorio y para hacer el primer push hacemos el comando git push -u origin master.
+
 
 ## Contributing
 
